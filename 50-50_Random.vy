@@ -7,8 +7,8 @@ groupB: Bytes[8]
 @external
 def __init__():
 
-    /* each of these values represents a possible character value in an Ethereum address, there are 16 in total, so I am splitting them into 2 groups of 8
-    each value has an equal chance of appearing so the probability of a value from a particular group being called is 50% */
+    # each of these values represents a possible character value in an Ethereum address, there are 16 in total, so I am splitting them into 2 groups of 8
+    # each value has an equal chance of appearing so the probability of a value from a particular group being called is 50% */
 
     self.groupA = b"\x00\x01\x02\x03\x04\x05\x06\x07"
     self.groupB = b"\x08\x09\x61\x62\x63\x64\x65\x66"
